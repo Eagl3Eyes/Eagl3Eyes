@@ -6,7 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eagl3eyes" alt="eagl3eyes" /></a> </p>
 
 - 📫 How to reach me
-- Email: **tuhinjobayergolap007@gmail.com**
+- 📫 Email: **tuhinjobayergolap007@gmail.com**
 - 📄 [__My Portfolio__](https://tuhinportfolio.netlify.app/)
 - 📄 Know about my Experiences [__My Resume__](https://drive.google.com/file/d/1cRIuuKsCbP5QlqL47efyhfRrPRRnRSe4/view?usp=drive_link)
 
