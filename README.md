@@ -1,3 +1,7 @@
+<h1 align="center">Hi 👋, I'm Tuhin Al Jobayer</h1>
+<h3 align="center">A passionate MERN-Stack Developer from Bangladesh</h3>
+
+
 # 💫 About Me:
 Full-stack JavaScript developer with experience in MERN stack, backend systems, and API integrations. Passionate about building reliable software, improving user experience, and writing efficient, well-structured code.
 
