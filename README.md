@@ -17,9 +17,9 @@ using my knowledge, abilities, and skills to the growth of the company.</p>
 <!-- <a href="https://twitter.com/eagl3eyes007" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="eagl3eyes007" height="30" width="40" /></a> -->
 <a href="https://linkedin.com/in/tuhinjobayer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tuhinjobayer" height="30" width="40" /></a>
 <a href="https://fb.com/tuhinaljobayer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tuhinaljobayer" height="30" width="40" /></a>
-<a href="https://instagram.com/tuhin_aj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tuhin_aj" height="30" width="40" /></a>
-<a href="https://www.youtube.com/@eagl3eyes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@eagl3eyes" height="30" width="40" /></a>
-<a href="https://discord.gg/invite/QGJ5MNkPdC" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="WjFnGGthWE" height="30" width="40" /></a>
+<!-- <a href="https://instagram.com/tuhin_aj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tuhin_aj" height="30" width="40" /></a> -->
+<!-- <a href="https://www.youtube.com/@eagl3eyes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@eagl3eyes" height="30" width="40" /></a> -->
+<!-- <a href="https://discord.gg/invite/QGJ5MNkPdC" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="WjFnGGthWE" height="30" width="40" /></a> -->
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
