@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Tuhin Al Jobayer</h1>
 <h3 align="center">A passionate MERN-Stack Developer from Bangladesh</h3>
+<p align="center">I’m eager to use my skills to make a difference and leave my imprint. I’m anxious to make a difference as a new employee by
+using my knowledge, abilities, and skills to the growth of the company.</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eagl3eyes&label=Profile%20views&color=0e75b6&style=flat" alt="eagl3eyes" /> </p>
 
