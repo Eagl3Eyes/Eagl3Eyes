@@ -24,5 +24,3 @@ Full-stack JavaScript developer with experience in MERN stack, backend systems, 
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Eagl3Eyes&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
