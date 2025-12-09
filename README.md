@@ -18,8 +18,6 @@ Full-stack JavaScript developer with experience in MERN stack, backend systems, 
 
 ## 🏆 GitHub Trophies
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Eagl3Eyes&theme=radical" alt="Eagl3Eyes" /></a> </p>
-[![](https://github-profile-trophy.vercel.app/?username=Eagl3Eyes&theme=radical)](https://github.com/Eagl3Eyes/github-profile-trophy)
-[![trophy](https://github-profile-trophy.vercel.app/?username=Eagl3Eyes&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Eagl3Eyes&limit=5&theme=radical&combine_all_yearly_contributions=true)
