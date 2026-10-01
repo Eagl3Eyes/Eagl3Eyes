@@ -25,7 +25,7 @@ Full-stack JavaScript developer focused on the **MERN stack** — from API desig
 
 ## 💻 Tech Stack
 
-<img src="readme-assets/tech-stack.svg" width="100%" alt="Tech stack — Programming Languages: C++, Java, JavaScript, Python, PHP | Front End: React, Next.js, React Native, jQuery, Firebase, JWT, Bootstrap, Tailwind CSS, Shadcn, Daisy UI, Material UI | Back End: Node.js, Express, MongoDB, PostgreSQL, Socket.IO, Prisma | Tools: VS Code, Chrome Dev Tools, React Developer Tools, GitHub, Netlify, Vercel, Figma" />
+<img src="readme-assets/tech-stack.svg" width="100%" alt="Tech stack — Programming Languages: C++, Java, JavaScript, TypeScript, Python, PHP | Front End: React, Next.js, React Native, jQuery, Firebase, JWT, Bootstrap, Tailwind CSS, Shadcn, Daisy UI, Material UI | Back End: Node.js, Express, MongoDB, PostgreSQL, Socket.IO, Prisma | Tools: VS Code, Chrome Dev Tools, React Developer Tools, GitHub, Netlify, Vercel, Figma" />
 
 <div align="center">
   <img src="https://img.shields.io/badge/Context%20API-3178C6?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Context API" />
