@@ -15,28 +15,15 @@
 
 ---
 
-## 💫 About Me
-
-Full-stack JavaScript developer focused on the **MERN stack** — from API design, validation, and data modeling to polished, responsive front ends. I care about reliable software, thoughtful user experience, and code that is efficient and easy to maintain.
-
-<img src="readme-assets/about.svg" width="100%" alt="About me — 🔭 working on production e-commerce & REST APIs · 🌱 leveling up in system design, DevOps & cloud · 💬 ask me about React, Next.js, Node, Express, MongoDB · 📍 based in Dhaka, Bangladesh" />
+<img src="readme-assets/about.svg" width="100%" alt="About me — Full-stack JavaScript developer focused on the MERN stack, from API design, validation, and data modeling to polished, responsive front ends; I care about reliable software, thoughtful user experience, and code that is efficient and easy to maintain · 🔭 working on production e-commerce & REST APIs · 🌱 leveling up in system design, DevOps & cloud · 💬 ask me about React, Next.js, Node, Express, MongoDB · 📍 based in Dhaka, Bangladesh" />
 
 ---
 
-## 💻 Tech Stack
-
-<img src="readme-assets/tech-stack.svg" width="100%" alt="Tech stack — Programming Languages: C++, Java, JavaScript, TypeScript, Python, PHP | Front End: React, Next.js, React Native, jQuery, Firebase, JWT, Bootstrap, Tailwind CSS, Shadcn, Daisy UI, Material UI | Back End: Node.js, Express, MongoDB, PostgreSQL, Socket.IO, Prisma | Tools: VS Code, Chrome Dev Tools, React Developer Tools, GitHub, Netlify, Vercel, Figma" />
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Context%20API-3178C6?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Context API" />
-  <img src="https://img.shields.io/badge/Adobe%20XD-FF61F6?style=for-the-badge&logo=adobexd&logoColor=white" alt="Adobe XD" />
-  <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Adobe Premiere Pro" />
-  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
-</div>
+<img src="readme-assets/tech-stack.svg" width="100%" alt="Tech stack — Programming Languages: C++, Java, JavaScript, TypeScript, Python, PHP | Front End: React, Next.js, React Native, jQuery, Firebase, JWT, Bootstrap, Tailwind CSS, Shadcn, Daisy UI, Material UI, Context API | Back End: Node.js, Express, MongoDB, PostgreSQL, Socket.IO, Prisma | Tools: VS Code, Chrome Dev Tools, React Developer Tools, GitHub, Netlify, Vercel, Figma | Design & Creative: Adobe XD, Adobe Premiere Pro, Canva" />
 
 ---
 
-## 🚀 Featured Projects
+<img src="readme-assets/projects-banner.svg" width="100%" alt="Featured projects — animated neon banner introducing Pet Food BD, EasyFund V2 and BuddyChat" />
 
 <table>
   <tr>
@@ -65,8 +52,6 @@ Full-stack JavaScript developer focused on the **MERN stack** — from API desig
 
 ---
 
-## 📊 GitHub Stats
-
 <img src="readme-assets/stats-banner.svg" width="100%" alt="GitHub stats — animated neon banner" />
 
 <div align="center">
@@ -83,8 +68,6 @@ Full-stack JavaScript developer focused on the **MERN stack** — from API desig
 </div>
 
 ---
-
-## 🏆 Trophies
 
 <img src="readme-assets/trophies.svg" width="100%" alt="GitHub trophies — God Repo Creator (82pt), High Committer (106pt), Experienced Dev (25pt), Middle Star (17pt), First Friend (6pt), First Pull (5pt), First Issue (4pt)" />
 
