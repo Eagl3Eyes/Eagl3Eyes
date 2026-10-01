@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="318" viewBox="0 0 920 318" role="img" aria-labelledby="aboutTitle aboutDesc">
+  <title id="aboutTitle">About me</title>
+  <desc id="aboutDesc">Animated info card: currently working on production e-commerce and REST APIs, leveling up in system design and DevOps, ask me about React Next.js Node Express MongoDB, based in Dhaka Bangladesh</desc>
+
+  <defs>
+    <!-- Main animated gradient: blue -> purple -> pink -> teal -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color"
+                 values="#58a6ff;#bf91f3;#ff7eb6;#2dd4bf;#58a6ff"
+                 dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#bf91f3">
+        <animate attributeName="stop-color"
+                 values="#bf91f3;#ff7eb6;#2dd4bf;#58a6ff;#bf91f3"
+                 dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ff7eb6">
+        <animate attributeName="stop-color"
+                 values="#ff7eb6;#2dd4bf;#58a6ff;#bf91f3;#ff7eb6"
+                 dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Card background gradient (works on both light & dark GitHub mode) -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="55%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#1c2230" />
+    </linearGradient>
+
+    <!-- Info pill background -->
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1b2129" />
+      <stop offset="100%" stop-color="#131920" />
+    </linearGradient>
+
+    <!-- Sweeping highlight band across the title -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="-1 0; 1 0" dur="3s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Soft glow behind the title -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" />
+    </filter>
+
+    <!-- Twinkling 4-point sparkle -->
+    <path id="star"
+          d="M0,-17 C2,-7 7,-2 17,0 C7,2 2,7 0,17 C-2,7 -7,2 -17,0 C-7,-2 -2,-7 0,-17 Z" />
+  </defs>
+
+  <!-- ============ 1) card ============ -->
+  <rect x="6" y="6" width="908" height="306" rx="18"
+        fill="url(#bg)" fill-opacity="0.96" />
+
+  <!-- ============ 2) floating particles (behind the pills) ============ -->
+  <circle cx="26" r="2.5" fill="#58a6ff">
+    <animate attributeName="cy" values="306;10" dur="8s" begin="0s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.15;0.8;1" dur="8s" begin="0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="240" r="2" fill="#bf91f3">
+    <animate attributeName="cy" values="306;10" dur="11s" begin="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.8;1" dur="11s" begin="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="460" r="2" fill="#ffffff">
+    <animate attributeName="cy" values="306;10" dur="9.5s" begin="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.15;0.8;1" dur="9.5s" begin="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="690" r="2.5" fill="#2dd4bf">
+    <animate attributeName="cy" values="306;10" dur="7.5s" begin="1s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.15;0.8;1" dur="7.5s" begin="1s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="894" r="3" fill="#ff7eb6">
+    <animate attributeName="cy" values="306;10" dur="10s" begin="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.15;0.8;1" dur="10s" begin="3s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ============ 3) marching neon border ============ -->
+  <rect x="6.5" y="6.5" width="907" height="305" rx="18"
+        fill="none" stroke="#30363d" stroke-width="1" />
+  <rect x="6.5" y="6.5" width="907" height="305" rx="18"
+        fill="none" stroke="url(#grad)" stroke-width="2.5"
+        stroke-dasharray="90 400" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-980" dur="7s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- ============ 4) title (glow + gradient + sweep), gently bobbing ============ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0 0; 0 -2; 0 0" dur="4s" repeatCount="indefinite" />
+
+    <text x="460" y="56" text-anchor="middle"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="26" font-weight="800" letter-spacing="8"
+          fill="url(#grad)" filter="url(#glow)" opacity="0.5">ABOUT ME</text>
+
+    <text x="460" y="56" text-anchor="middle"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="26" font-weight="800" letter-spacing="8"
+          fill="url(#grad)">ABOUT ME</text>
+
+    <text x="460" y="56" text-anchor="middle"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="26" font-weight="800" letter-spacing="8"
+          fill="url(#shine)">ABOUT ME</text>
+  </g>
+
+  <!-- pulsing accent underline -->
+  <rect x="400" y="70" width="120" height="3" rx="1.5" fill="url(#grad)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- sparkles flanking the title -->
+  <g transform="translate(336,46)">
+    <use href="#star" fill="url(#grad)" transform="scale(0.55)">
+      <animateTransform attributeName="transform" type="scale"
+                        values="0.4;0.75;0.4" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.35;1;0.35"
+               dur="2.4s" repeatCount="indefinite" />
+    </use>
+  </g>
+  <g transform="translate(584,46)">
+    <use href="#star" fill="url(#grad)" transform="scale(0.55)">
+      <animateTransform attributeName="transform" type="scale"
+                        values="0.75;0.4;0.75" dur="2.9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.3;1"
+               dur="2.9s" repeatCount="indefinite" />
+    </use>
+  </g>
+
+  <!-- ============ 5) info pills ============ -->
+
+  <!-- pill A: currently working on -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0 0; 0 -3; 0 0" dur="4.2s" begin="0s" repeatCount="indefinite" />
+    <rect x="44" y="88" width="400" height="86" rx="14"
+          fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+    <rect x="58" y="104" width="6" height="54" rx="3" fill="url(#grad)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" begin="0s" repeatCount="indefinite" />
+    </rect>
+    <text x="74" y="142" font-size="26">🔭</text>
+    <text x="110" y="124"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="11.5" font-weight="600" letter-spacing="2.2" fill="#8b949e">CURRENTLY WORKING ON</text>
+    <text x="110" y="150"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="16" font-weight="700" fill="#e6edf3">Production e-commerce &amp; REST APIs</text>
+  </g>
+
+  <!-- pill B: currently leveling up -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0 0; 0 -3; 0 0" dur="4.2s" begin="1.05s" repeatCount="indefinite" />
+    <rect x="476" y="88" width="400" height="86" rx="14"
+          fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+    <rect x="490" y="104" width="6" height="54" rx="3" fill="url(#grad)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" begin="1s" repeatCount="indefinite" />
+    </rect>
+    <text x="506" y="142" font-size="26">🌱</text>
+    <text x="542" y="124"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="11.5" font-weight="600" letter-spacing="2.2" fill="#8b949e">CURRENTLY LEVELING UP</text>
+    <text x="542" y="150"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="16" font-weight="700" fill="#e6edf3">System design, DevOps &amp; cloud</text>
+  </g>
+
+  <!-- pill C: ask me about -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0 0; 0 -3; 0 0" dur="4.2s" begin="2.1s" repeatCount="indefinite" />
+    <rect x="44" y="194" width="400" height="86" rx="14"
+          fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+    <rect x="58" y="210" width="6" height="54" rx="3" fill="url(#grad)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" begin="2s" repeatCount="indefinite" />
+    </rect>
+    <text x="74" y="248" font-size="26">💬</text>
+    <text x="110" y="230"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="11.5" font-weight="600" letter-spacing="2.2" fill="#8b949e">ASK ME ABOUT</text>
+    <text x="110" y="256"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="16" font-weight="700" fill="#e6edf3">React, Next.js, Node, Express, MongoDB</text>
+  </g>
+
+  <!-- pill D: based in -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0 0; 0 -3; 0 0" dur="4.2s" begin="3.15s" repeatCount="indefinite" />
+    <rect x="476" y="194" width="400" height="86" rx="14"
+          fill="url(#pillBg)" stroke="#30363d" stroke-width="1" />
+    <rect x="490" y="210" width="6" height="54" rx="3" fill="url(#grad)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" begin="3s" repeatCount="indefinite" />
+    </rect>
+    <text x="506" y="248" font-size="26">📍</text>
+    <text x="542" y="230"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="11.5" font-weight="600" letter-spacing="2.2" fill="#8b949e">BASED IN</text>
+    <text x="542" y="256"
+          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+          font-size="16" font-weight="700" fill="#e6edf3">Dhaka, Bangladesh</text>
+  </g>
+
+  <!-- corner sparkles -->
+  <g transform="translate(26,294)">
+    <use href="#star" fill="#ffffff" transform="scale(0.45)">
+      <animateTransform attributeName="transform" type="scale"
+                        values="0.3;0.55;0.3" dur="3.3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.25;0.9;0.25"
+               dur="3.3s" repeatCount="indefinite" />
+    </use>
+  </g>
+  <g transform="translate(894,294)">
+    <use href="#star" fill="#ffffff" transform="scale(0.45)">
+      <animateTransform attributeName="transform" type="scale"
+                        values="0.55;0.3;0.55" dur="2.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;0.25;0.9"
+               dur="2.7s" repeatCount="indefinite" />
+    </use>
+  </g>
+</svg>

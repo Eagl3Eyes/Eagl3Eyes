@@ -19,28 +19,7 @@
 
 Full-stack JavaScript developer focused on the **MERN stack** — from API design, validation, and data modeling to polished, responsive front ends. I care about reliable software, thoughtful user experience, and code that is efficient and easy to maintain.
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <b>🔭 Currently working on</b><br/>
-      Production e-commerce systems &amp; REST APIs
-    </td>
-    <td align="center" width="50%">
-      <b>🌱 Currently leveling up</b><br/>
-      System design, DevOps &amp; cloud infrastructure
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>💬 Ask me about</b><br/>
-      React, Next.js, Node.js, Express, MongoDB
-    </td>
-    <td align="center">
-      <b>📍 Based in</b><br/>
-      Dhaka, Bangladesh 🇧🇩
-    </td>
-  </tr>
-</table>
+<img src="readme-assets/about.svg" width="100%" alt="About me — 🔭 working on production e-commerce & REST APIs · 🌱 leveling up in system design, DevOps & cloud · 💬 ask me about React, Next.js, Node, Express, MongoDB · 📍 based in Dhaka, Bangladesh" />
 
 ---
 
