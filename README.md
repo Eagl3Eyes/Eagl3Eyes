@@ -7,10 +7,10 @@
 
   <br/>
 
-  <a href="https://linkedin.com/in/tuhinjobayer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/tuhinjobayer/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="mailto:tuhinjobayergolap007@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://tuhinportfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-21262D?style=for-the-badge&logo=googlechrome&logoColor=4285F4" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/tuhinjobayer"><img src="readme-assets/social-linkedin.svg" height="40" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/tuhinjobayer/"><img src="readme-assets/social-leetcode.svg" height="40" alt="LeetCode" /></a>
+  <a href="mailto:tuhinjobayergolap007@gmail.com"><img src="readme-assets/social-email.svg" height="40" alt="Email" /></a>
+  <a href="https://tuhinportfolio.netlify.app/"><img src="readme-assets/social-portfolio.svg" height="40" alt="Portfolio" /></a>
 </div>
 
 ---
@@ -55,16 +55,16 @@
 <img src="readme-assets/stats-banner.svg" width="100%" alt="GitHub stats — animated neon banner" />
 
 <div align="center">
-  <img width="440" src="https://github-readme-stats.vercel.app/api?username=Eagl3Eyes&show_icons=true&include_all_commits=true&count_private=true&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=15&title_color=58a6ff&icon_color=bf91f3&text_color=e6edf3&label_color=8b949e&hide_border=false" alt="GitHub stats" />
-  <img width="440" src="https://streak-stats.demolab.com?user=Eagl3Eyes&background=135,0d1117,161b22&border=30363d&stroke=30363d&ring=bf91f3&fire=ff7eb6&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&backgroundBorder=30363d&border_radius=15" alt="GitHub streak" />
+  <img width="440" src="https://github-readme-stats.vercel.app/api?username=Eagl3Eyes&show_icons=true&include_all_commits=true&count_private=true&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&icon_color=bf91f3&text_color=e6edf3&label_color=8b949e&hide_border=false&ring=58a6ff" alt="GitHub stats" />
+  <img width="440" src="https://streak-stats.demolab.com?user=Eagl3Eyes&background=135,0d1117,161b22&border=30363d&stroke=30363d&ring=bf91f3&fire=ff7eb6&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&backgroundBorder=30363d&border_radius=18" alt="GitHub streak" />
 </div>
 
 <div align="center">
-  <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eagl3Eyes&layout=compact&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=15&title_color=58a6ff&text_color=e6edf3&label_color=8b949e&hide_border=false" alt="Top programming languages" />
+  <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eagl3Eyes&layout=compact&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&text_color=e6edf3&label_color=8b949e&hide_border=false" alt="Top programming languages" />
 </div>
 
 <div align="center">
-  <img width="880" src="https://ghchart.rshah.org/bf91f3/Eagl3Eyes" alt="GitHub contribution activity over the past year" />
+  <img width="880" src="https://activity-graph.vercel.app/graph?username=Eagl3Eyes&bg_color=0d1117&color=8b949e&line=ff7eb6&area=true&area_color=58a6ff&hide_border=true" alt="GitHub contribution activity — daily contributions over the last 30 days" />
 </div>
 
 ---
@@ -86,7 +86,7 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Eagl3Eyes&color=blueviolet" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Eagl3Eyes&color=bf91f3" alt="Profile views" />
   <br/><br/>
   <sub><b>Thanks for stopping by ⭐</b> — if something here caught your eye, consider starring the repos you find useful.</sub>
   <br/><br/>

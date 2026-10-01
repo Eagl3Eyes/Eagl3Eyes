@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="40" viewBox="0 0 104 40" role="img" aria-labelledby="emTitle">
+  <title id="emTitle">Email</title>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#bf91f3;#ff7eb6;#2dd4bf;#58a6ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#bf91f3">
+        <animate attributeName="stop-color" values="#bf91f3;#ff7eb6;#2dd4bf;#58a6ff;#bf91f3" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ff7eb6">
+        <animate attributeName="stop-color" values="#ff7eb6;#2dd4bf;#58a6ff;#bf91f3;#ff7eb6" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="103" height="39" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+  <rect x="0.75" y="0.75" width="102.5" height="38.5" rx="10" fill="none" stroke="url(#grad)" stroke-width="1.5"
+        stroke-dasharray="50 12" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-62" dur="3s" repeatCount="indefinite" />
+  </rect>
+
+  <g transform="translate(12,10) scale(0.8333)">
+    <path fill="#ff7eb6" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+  </g>
+
+  <text x="42" y="25" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Email</text>
+</svg>
