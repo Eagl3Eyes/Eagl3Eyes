@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="Tuhin Al Jobayer — MERN Stack Developer" />
+  <img src="readme-assets/header.svg" width="100%" alt="Tuhin Al Jobayer — MERN Stack Developer" />
 
   <br/>
 
