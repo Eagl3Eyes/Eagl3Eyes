@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="readme-assets/header.svg" width="100%" alt="Tuhin Al Jobayer — MERN Stack Developer" />
+  <img src="readme-assets/header.svg" width="100%" alt="Tuhin Al Jobayer — Full Stack Developer" />
 
   <br/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=620&lines=MERN+Stack+Developer;Building+reliable+full-stack+systems;Always+learning,+always+shipping" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=620&lines=Full+Stack+Developer;Building+reliable+full-stack+systems;Always+learning,+always+shipping" alt="Typing SVG" />
 
   <br/>
 
@@ -73,7 +73,7 @@
 
 ---
 
-## 🐍 Contribution Snake
+<img src="readme-assets/snake-banner.svg" width="100%" alt="Contribution snake — animated neon banner introducing the snake animation" />
 
 <div align="center">
   <picture>

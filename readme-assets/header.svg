@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="210" viewBox="0 0 920 210" role="img" aria-labelledby="hdrTitle hdrDesc">
-  <title id="hdrTitle">Tuhin Al Jobayer — MERN Stack Developer</title>
+  <title id="hdrTitle">Tuhin Al Jobayer — Full Stack Developer</title>
   <desc id="hdrDesc">Animated hero card: glowing gradient name, light sweep, marching neon border, floating particles and twinkling sparkles</desc>
 
   <defs>
@@ -153,7 +153,7 @@
   <text x="460" y="160" text-anchor="middle"
         font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
         font-size="24" font-weight="500"
-        letter-spacing="7" fill="#8b949e">MERN STACK DEVELOPER</text>
+        letter-spacing="7" fill="#8b949e">FULL STACK DEVELOPER</text>
 
   <!-- ============ 7) pulsing accent underline ============ -->
   <rect x="350" y="180" width="220" height="4" rx="2" fill="url(#grad)">
