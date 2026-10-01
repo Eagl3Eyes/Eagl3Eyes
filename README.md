@@ -76,7 +76,7 @@
 </div>
 
 <div align="center">
-  <img width="880" src="https://activity-graph.vercel.app/graph?username=Eagl3Eyes&bg_color=0d1117&color=8b949e&line=ff7eb6&area=true&area_color=58a6ff&hide_border=true" alt="GitHub contribution activity — daily contributions over the last 30 days" />
+  <img width="880" src="https://raw.githubusercontent.com/Eagl3Eyes/Eagl3Eyes/output/contribution-graph.svg" alt="GitHub contribution calendar — contributions in the last year" />
 </div>
 
 ---

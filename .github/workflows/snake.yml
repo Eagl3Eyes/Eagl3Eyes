@@ -56,6 +56,12 @@ jobs:
       - name: Apply theme colors to language card
         run: python3 .github/scripts/themify-top-langs.py dist/top-langs.svg
 
+      - name: Generate contribution calendar
+        run: node .github/scripts/generate-contribution-graph.mjs dist/contribution-graph.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.SNK_PAT || github.token }}
+          GITHUB_USER: ${{ github.repository_owner }}
+
       - name: Publish to `output` branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
