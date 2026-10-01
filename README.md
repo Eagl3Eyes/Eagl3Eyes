@@ -67,6 +67,14 @@
       <img width="440" src="https://streak-stats.demolab.com?user=Eagl3Eyes&background=135,0d1117,161b22&border=30363d&stroke=30363d&ring=bf91f3&fire=ff7eb6&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&backgroundBorder=30363d&border_radius=18" alt="GitHub streak" />
     </td>
   </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img width="440" src="https://raw.githubusercontent.com/Eagl3Eyes/Eagl3Eyes/output/leetcode-card.svg" alt="LeetCode stats — 158 problems solved (41 easy, 86 medium, 31 hard), 99.4% acceptance, ranking 1,106,856" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img width="440" src="https://raw.githubusercontent.com/Eagl3Eyes/Eagl3Eyes/output/recent-repos.svg" alt="Recently updated repositories — ByteSpace, EasyFund-v2, Hospital-Management-System-CRM, Assignment-Submission-Management-System, rise-at-seven" />
+    </td>
+  </tr>
 </table>
 
 <div align="center">

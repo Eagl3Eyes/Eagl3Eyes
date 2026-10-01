@@ -62,6 +62,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SNK_PAT || github.token }}
           GITHUB_USER: ${{ github.repository_owner }}
 
+      - name: Generate README widget cards
+        run: node .github/scripts/generate-readme-widgets.mjs dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          LEETCODE_USER: tuhinjobayer
+
       - name: Publish to `output` branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
