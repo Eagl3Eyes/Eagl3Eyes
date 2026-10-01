@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="200" viewBox="0 0 296 200" role="img" aria-labelledby="pfdTitle pfdDesc">
+  <title id="pfdTitle">Pet Food BD</title>
+  <desc id="pfdDesc">Project card: Bangladesh's premium pet-food e-commerce platform with 316+ products, multi-variant BDT pricing, COD checkout, loyalty tiers and a full admin inventory suite. Stack: Next.js 16, React 19, Express, MongoDB</desc>
+
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#bf91f3;#ff7eb6;#2dd4bf;#58a6ff" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#bf91f3">
+        <animate attributeName="stop-color" values="#bf91f3;#ff7eb6;#2dd4bf;#58a6ff;#bf91f3" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ff7eb6">
+        <animate attributeName="stop-color" values="#ff7eb6;#2dd4bf;#58a6ff;#bf91f3;#ff7eb6" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="55%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#1c2230" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0" dur="3s" repeatCount="indefinite" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" />
+    </filter>
+    <path id="star" d="M0,-17 C2,-7 7,-2 17,0 C7,2 2,7 0,17 C-2,7 -7,2 -17,0 C-7,-2 -2,-7 0,-17 Z" />
+  </defs>
+
+  <rect x="5" y="5" width="286" height="190" rx="16" fill="url(#bg)" fill-opacity="0.96" />
+
+  <!-- particles -->
+  <circle cx="40" r="2" fill="#58a6ff">
+    <animate attributeName="cy" values="185;8" dur="9s" begin="0s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.8;1" dur="9s" begin="0s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="250" r="2" fill="#bf91f3">
+    <animate attributeName="cy" values="185;8" dur="11s" begin="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.8;1" dur="11s" begin="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- marching neon border -->
+  <rect x="5.5" y="5.5" width="285" height="189" rx="16" fill="none" stroke="#30363d" stroke-width="1" />
+  <rect x="5.5" y="5.5" width="285" height="189" rx="16" fill="none" stroke="url(#grad)" stroke-width="2"
+        stroke-dasharray="40 120" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-320" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- name (glow + gradient + sweep), bobbing -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="4s" repeatCount="indefinite" />
+    <text x="18" y="46" font-size="20">🛒</text>
+    <text x="46" y="46" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" font-weight="800"
+          fill="url(#grad)" filter="url(#glow)" opacity="0.5">Pet Food BD</text>
+    <text x="46" y="46" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" font-weight="800"
+          fill="url(#grad)">Pet Food BD</text>
+    <text x="46" y="46" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" font-weight="800"
+          fill="url(#shine)">Pet Food BD</text>
+  </g>
+
+  <!-- pulsing accent underline -->
+  <rect x="18" y="58" width="64" height="3" rx="1.5" fill="url(#grad)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- description -->
+  <text x="18" y="82" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="10.5" fill="#8b949e">Bangladesh's premium pet-food e-commerce</text>
+  <text x="18" y="98" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="10.5" fill="#8b949e">platform with <tspan fill="#e6edf3" font-weight="700">316+ products</tspan>,</text>
+  <text x="18" y="114" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="10.5" fill="#8b949e">multi-variant BDT pricing &amp; COD checkout,</text>
+  <text x="18" y="130" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="10.5" fill="#8b949e">loyalty tiers + full admin inventory suite</text>
+
+  <!-- tech chips -->
+  <g>
+    <rect x="25" y="146" width="67" height="20" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="58.5" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" fill="#cbd5e1">Next.js 16</text>
+  </g>
+  <g>
+    <rect x="98" y="146" width="57" height="20" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="126.5" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" fill="#cbd5e1">React 19</text>
+  </g>
+  <g>
+    <rect x="161" y="146" width="52" height="20" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="187" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" fill="#cbd5e1">Express</text>
+  </g>
+  <g>
+    <rect x="219" y="146" width="52" height="20" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="245" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" fill="#cbd5e1">MongoDB</text>
+  </g>
+
+  <!-- sparkles -->
+  <g transform="translate(268,30)">
+    <use href="#star" fill="url(#grad)" transform="scale(0.35)">
+      <animateTransform attributeName="transform" type="scale" values="0.25;0.5;0.25" dur="2.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite" />
+    </use>
+  </g>
+  <g transform="translate(28,180)">
+    <use href="#star" fill="#ffffff" transform="scale(0.3)">
+      <animateTransform attributeName="transform" type="scale" values="0.2;0.42;0.2" dur="3.1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.25;0.85;0.25" dur="3.1s" repeatCount="indefinite" />
+    </use>
+  </g>
+</svg>

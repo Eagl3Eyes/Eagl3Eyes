@@ -25,29 +25,14 @@ Full-stack JavaScript developer focused on the **MERN stack** — from API desig
 
 ## 💻 Tech Stack
 
-### 📜 Languages
+<img src="readme-assets/tech-stack.svg" width="100%" alt="Tech stack — Programming Languages: C++, Java, JavaScript, Python, PHP | Front End: React, Next.js, React Native, jQuery, Firebase, JWT, Bootstrap, Tailwind CSS, Shadcn, Daisy UI, Material UI | Back End: Node.js, Express, MongoDB, PostgreSQL, Socket.IO, Prisma | Tools: VS Code, Chrome Dev Tools, React Developer Tools, GitHub, Netlify, Vercel, Figma" />
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-### 🌐 Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white) ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white) ![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white) ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white) ![Context API](https://img.shields.io/badge/Context%20API-3178C6?style=for-the-badge&logo=react&logoColor=61DAFB) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-F5788D?style=for-the-badge&logo=chartdotjs&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-
-### ⚙️ Backend & Runtime
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white) ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3068B2?style=for-the-badge&logo=zod&logoColor=white) ![Nodemon](https://img.shields.io/badge/Nodemon-323330?style=for-the-badge&logo=nodemon&logoColor=76B900) ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-
-### 🗄️ Databases
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### ☁️ Cloud & DevOps
-
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![Apache](https://img.shields.io/badge/Apache-D42029?style=for-the-badge&logo=apache&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-### 🎨 Design & Tools
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-FF61F6?style=for-the-badge&logo=adobexd&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+<div align="center">
+  <img src="https://img.shields.io/badge/Context%20API-3178C6?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Context API" />
+  <img src="https://img.shields.io/badge/Adobe%20XD-FF61F6?style=for-the-badge&logo=adobexd&logoColor=white" alt="Adobe XD" />
+  <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Adobe Premiere Pro" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+</div>
 
 ---
 
@@ -56,30 +41,24 @@ Full-stack JavaScript developer focused on the **MERN stack** — from API desig
 <table>
   <tr>
     <td width="33%" align="center" valign="top">
-      <h3>🛒 Pet Food BD</h3>
-      <p>Bangladesh's premium pet-food e-commerce platform —<br/><b>316+ products</b>, multi-variant BDT pricing, COD checkout,<br/>loyalty tiers &amp; a full admin inventory suite.</p>
+      <img src="readme-assets/project-petfoodbd.svg" width="100%" alt="Pet Food BD — Bangladesh's premium pet-food e-commerce platform with 316+ products, multi-variant BDT pricing and COD checkout, loyalty tiers and a full admin inventory suite. Stack: Next.js 16, React 19, Express, MongoDB." />
       <p>
         <a href="https://petfoodbd.shop"><img src="https://img.shields.io/badge/Live-Demo-22C55E?style=flat&logo=vercel&logoColor=white" alt="Live demo" /></a>
         <a href="https://github.com/Eagl3Eyes/PetFoodBD"><img src="https://img.shields.io/badge/Code-GitHub-21262D?style=flat&logo=github&logoColor=white" alt="Repository" /></a>
       </p>
-      <p><sub>Next.js 16 · React 19 · Express · MongoDB</sub></p>
     </td>
     <td width="33%" align="center" valign="top">
-      <h3>💚 EasyFund V2</h3>
-      <p>Production-grade crowdfunding platform —<br/><b>Stripe Checkout + webhooks</b>, Firebase Auth sessions,<br/>fundraiser dashboards &amp; admin panel with audit logs.</p>
+      <img src="readme-assets/project-easyfund.svg" width="100%" alt="EasyFund V2 — production-grade crowdfunding platform with Stripe Checkout and webhooks, Firebase Auth sessions, fundraiser dashboards, admin panel and audit logs. Stack: Next.js 14, TypeScript, Express, Stripe." />
       <p>
         <a href="https://github.com/Eagl3Eyes/EasyFund-v2"><img src="https://img.shields.io/badge/Code-GitHub-21262D?style=flat&logo=github&logoColor=white" alt="Repository" /></a>
       </p>
-      <p><sub>Next.js 14 · TypeScript · Express · Stripe</sub></p>
     </td>
     <td width="33%" align="center" valign="top">
-      <h3>💬 BuddyChat</h3>
-      <p>Real-time one-to-one chat powered by <b>Socket.IO</b> —<br/>online presence, typing indicators, user search<br/>&amp; persistent message history.</p>
+      <img src="readme-assets/project-buddychat.svg" width="100%" alt="BuddyChat — real-time one-to-one chat powered by Socket.IO with online presence, typing indicators, user search and persistent message history. Stack: React, Vite, Node.js, Socket.IO." />
       <p>
         <a href="https://buddychat.up.railway.app/login"><img src="https://img.shields.io/badge/Live-Demo-22C55E?style=flat&logo=railway&logoColor=white" alt="Live demo" /></a>
         <a href="https://github.com/Eagl3Eyes/BuddyChat"><img src="https://img.shields.io/badge/Code-GitHub-21262D?style=flat&logo=github&logoColor=white" alt="Repository" /></a>
       </p>
-      <p><sub>React · Vite · Node.js · Socket.IO</sub></p>
     </td>
   </tr>
 </table>
