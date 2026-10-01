@@ -86,9 +86,7 @@ Full-stack JavaScript developer focused on the **MERN stack** — from API desig
 
 ## 🏆 Trophies
 
-<div align="center">
-  <img src="https://trophy.ryglcloud.net/?username=Eagl3Eyes&theme=tokyonight&column=-1&margin-w=8&margin-h=8" alt="GitHub trophies" />
-</div>
+<img src="readme-assets/trophies.svg" width="100%" alt="GitHub trophies — God Repo Creator (82pt), High Committer (106pt), Experienced Dev (25pt), Middle Star (17pt), First Friend (6pt), First Pull (5pt), First Issue (4pt)" />
 
 ---
 
