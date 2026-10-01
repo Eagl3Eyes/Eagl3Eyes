@@ -4,7 +4,7 @@
 #   select "Read and write permissions" so the workflow can push the
 #   generated SVGs to the `output` branch.
 
-name: Generate snake animation
+name: Generate README assets
 
 on:
   push:
@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 jobs:
-  generate-snake:
+  generate-assets:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -33,6 +33,24 @@ jobs:
           outputs: |
             dist/github-snake-light.svg?palette=github-light
             dist/github-snake-dark.svg?palette=github-dark
+
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&icon_color=bf91f3&text_color=e6edf3&label_color=8b949e&hide_border=false&ring=58a6ff&hide_title=true
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&text_color=e6edf3&label_color=8b949e&hide_border=false&hide_title=true
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to `output` branch
         uses: crazy-max/ghaction-github-pages@v4
