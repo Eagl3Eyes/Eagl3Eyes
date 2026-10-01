@@ -67,17 +67,19 @@ Full-stack JavaScript developer focused on the **MERN stack** — from API desig
 
 ## 📊 GitHub Stats
 
+<img src="readme-assets/stats-banner.svg" width="100%" alt="GitHub stats — animated neon banner" />
+
 <div align="center">
-  <img width="440" src="https://github-readme-stats.vercel.app/api?username=Eagl3Eyes&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&radius=8" alt="GitHub stats" />
-  <img width="440" src="https://streak-stats.demolab.com?user=Eagl3Eyes&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub streak" />
+  <img width="440" src="https://github-readme-stats.vercel.app/api?username=Eagl3Eyes&show_icons=true&include_all_commits=true&count_private=true&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=15&title_color=58a6ff&icon_color=bf91f3&text_color=e6edf3&label_color=8b949e&hide_border=false" alt="GitHub stats" />
+  <img width="440" src="https://streak-stats.demolab.com?user=Eagl3Eyes&background=135,0d1117,161b22&border=30363d&stroke=30363d&ring=bf91f3&fire=ff7eb6&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&backgroundBorder=30363d&border_radius=15" alt="GitHub streak" />
 </div>
 
 <div align="center">
-  <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eagl3Eyes&layout=compact&theme=tokyonight&hide_border=true&radius=8" alt="Top programming languages" />
+  <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eagl3Eyes&layout=compact&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=15&title_color=58a6ff&text_color=e6edf3&label_color=8b949e&hide_border=false" alt="Top programming languages" />
 </div>
 
 <div align="center">
-  <img width="880" src="https://ghchart.rshah.org/Eagl3Eyes" alt="GitHub contribution activity over the past year" />
+  <img width="880" src="https://ghchart.rshah.org/bf91f3/Eagl3Eyes" alt="GitHub contribution activity over the past year" />
 </div>
 
 ---
