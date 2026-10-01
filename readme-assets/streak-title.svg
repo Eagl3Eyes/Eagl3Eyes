@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="44" viewBox="0 0 440 44" role="img" aria-labelledby="skTitle skDesc">
+  <title id="skTitle">GitHub Streak</title>
+  <desc id="skDesc">Animated gradient title strip for the GitHub streak card</desc>
+
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#bf91f3;#ff7eb6;#2dd4bf;#58a6ff" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#bf91f3">
+        <animate attributeName="stop-color" values="#bf91f3;#ff7eb6;#2dd4bf;#58a6ff;#bf91f3" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ff7eb6">
+        <animate attributeName="stop-color" values="#ff7eb6;#2dd4bf;#58a6ff;#bf91f3;#ff7eb6" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0" dur="3s" repeatCount="indefinite" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
+    <path id="star" d="M0,-17 C2,-7 7,-2 17,0 C7,2 2,7 0,17 C-2,7 -7,2 -17,0 C-7,-2 -2,-7 0,-17 Z" />
+  </defs>
+
+  <text x="220" y="21" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" font-weight="800"
+        letter-spacing="2" fill="url(#grad)" filter="url(#glow)" opacity="0.5">GITHUB STREAK</text>
+  <text x="220" y="21" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" font-weight="800"
+        letter-spacing="2" fill="url(#grad)">GITHUB STREAK</text>
+  <text x="220" y="21" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" font-weight="800"
+        letter-spacing="2" fill="url(#shine)">GITHUB STREAK</text>
+
+  <rect x="180" y="31" width="80" height="2.5" rx="1.25" fill="url(#grad)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <g transform="translate(14,16)">
+    <use href="#star" fill="url(#grad)" transform="scale(0.18)">
+      <animateTransform attributeName="transform" type="scale" values="0.12;0.24;0.12" dur="2.6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite" />
+    </use>
+  </g>
+  <g transform="translate(426,16)">
+    <use href="#star" fill="url(#grad)" transform="scale(0.18)">
+      <animateTransform attributeName="transform" type="scale" values="0.24;0.12;0.24" dur="3.1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.3;1" dur="3.1s" repeatCount="indefinite" />
+    </use>
+  </g>
+</svg>

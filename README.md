@@ -54,13 +54,25 @@
 
 <img src="readme-assets/stats-banner.svg" width="100%" alt="GitHub stats — animated neon banner" />
 
-<div align="center">
-  <img width="440" src="https://github-readme-stats.vercel.app/api?username=Eagl3Eyes&show_icons=true&include_all_commits=true&count_private=true&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&icon_color=bf91f3&text_color=e6edf3&label_color=8b949e&hide_border=false&ring=58a6ff" alt="GitHub stats" />
-  <img width="440" src="https://streak-stats.demolab.com?user=Eagl3Eyes&background=135,0d1117,161b22&border=30363d&stroke=30363d&ring=bf91f3&fire=ff7eb6&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&backgroundBorder=30363d&border_radius=18" alt="GitHub streak" />
-</div>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="readme-assets/stats-title.svg" width="440" alt="Md Tuhin Al Jobayer's GitHub stats" />
+      <br/>
+      <img width="440" src="https://github-readme-stats.vercel.app/api?username=Eagl3Eyes&show_icons=true&include_all_commits=true&count_private=true&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&icon_color=bf91f3&text_color=e6edf3&label_color=8b949e&hide_border=false&ring=58a6ff&hide_title=true" alt="GitHub stats" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="readme-assets/streak-title.svg" width="440" alt="GitHub streak" />
+      <br/>
+      <img width="440" src="https://streak-stats.demolab.com?user=Eagl3Eyes&background=135,0d1117,161b22&border=30363d&stroke=30363d&ring=bf91f3&fire=ff7eb6&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&backgroundBorder=30363d&border_radius=18" alt="GitHub streak" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
-  <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eagl3Eyes&layout=compact&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&text_color=e6edf3&label_color=8b949e&hide_border=false" alt="Top programming languages" />
+  <img src="readme-assets/langs-title.svg" width="440" alt="Most used languages" />
+  <br/>
+  <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eagl3Eyes&layout=compact&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&text_color=e6edf3&label_color=8b949e&hide_border=false&hide_title=true" alt="Top programming languages" />
 </div>
 
 <div align="center">
