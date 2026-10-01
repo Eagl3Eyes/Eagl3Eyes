@@ -32,9 +32,10 @@ jobs:
           # Optional: add a repo secret named SNK_PAT (classic PAT with `repo`
           # scope) so contributions from your other/private repos are included.
           github_token: ${{ secrets.SNK_PAT || github.token }}
+          # theme ramp: empty -> low -> high contribution (teal/blue/purple/pink)
           outputs: |
-            dist/github-snake-light.svg?palette=github-light
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-light.svg?color_dots=#ebedf0,#2dd4bf,#58a6ff,#bf91f3,#ff7eb6&color_snake=#58a6ff
+            dist/github-snake-dark.svg?color_dots=#161b22,#2dd4bf,#58a6ff,#bf91f3,#ff7eb6&color_snake=#e6edf3
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
@@ -51,6 +52,9 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&bg_color=135,0d1117,161b22&border_color=30363d&border_radius=18&title_color=58a6ff&text_color=e6edf3&label_color=8b949e&hide_border=false&hide_title=true&disable_animations=true
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Apply theme colors to language card
+        run: python3 .github/scripts/themify-top-langs.py dist/top-langs.svg
 
       - name: Publish to `output` branch
         uses: crazy-max/ghaction-github-pages@v4
